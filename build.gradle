@@ -2,3 +2,7 @@ apply plugin:'java'
 apply plugin:'application'
 
 mainClassName='com.test.refactordemo.Main'
+
+task hello{
+	println 'Hello,World'
+}
